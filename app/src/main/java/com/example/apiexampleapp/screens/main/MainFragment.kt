@@ -13,12 +13,10 @@ import kotlinx.android.synthetic.main.fragment_main.*
 
 class MainFragment: Fragment(R.layout.fragment_main) {
 
-    private lateinit var binding: FragmentMainBinding
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
 
         val viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
@@ -32,10 +30,13 @@ class MainFragment: Fragment(R.layout.fragment_main) {
             }
         }
 
-        binding.btnRefresh.setOnClickListener {
+        val memes = resources.getStringArray(R.array.memes)
 
+        binding.btnRefresh.setOnClickListener {
             viewModel.getCat()
 
+            val random = (memes.indices).random()
+            tv_mem.text = memes[random]
         }
 
         return binding.root

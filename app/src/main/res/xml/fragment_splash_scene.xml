@@ -24,7 +24,6 @@
                android:scaleX="50"
                android:scaleY="50" />
        </KeyFrameSet>
-        <OnClick motion:targetId="@+id/iv_splash" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">

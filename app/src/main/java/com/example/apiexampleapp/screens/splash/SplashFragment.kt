@@ -12,10 +12,17 @@ class SplashFragment: Fragment(R.layout.fragment_splash) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        iv_splash.setOnClickListener {
 
+            // Start animation
+            splashFragment.transitionToEnd()
+
+            // Start mainFragment
             view.postDelayed({
                 findNavController().navigate(R.id.action_splashFragment_to_mainFragment)},
-                2500)
+                1000)
+        }
+
     }
 
 }

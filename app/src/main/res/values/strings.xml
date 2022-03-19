@@ -3,4 +3,5 @@
     <string name="fragment_splash_text">Cat App</string>
     <string name="fragment_main_text">Main</string>
     <string name="get_cat">Get cat</string>
+    <string name="its_me">Это я, когда...</string>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="memes">
+        <item>Это я завтра:</item>
+        <item>Это я, когда пришёл на лекцию:</item>
+        <item>Это я, когда захотел в туалет:</item>
+        <item>Это я, когда увидел себя в списке на отчисление:</item>
+        <item>Это я в столовой Бонча:</item>
+    </string-array>
+</resources>
