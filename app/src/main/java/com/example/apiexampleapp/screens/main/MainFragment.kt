@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.apiexampleapp.NetworkConnection
 import com.example.apiexampleapp.R
 import com.example.apiexampleapp.databinding.FragmentMainBinding
 import com.squareup.picasso.Picasso
