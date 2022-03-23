@@ -8,3 +8,4 @@ interface ApiService {
     @GET("v1/images/search")
     suspend fun getCat(): Response<List<Cat>>
 }
+

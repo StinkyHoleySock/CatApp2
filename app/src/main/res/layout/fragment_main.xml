@@ -35,9 +35,9 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_refresh"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
+        android:background="@drawable/buttonshape"
         android:layout_marginTop="16dp"
         android:text="@string/get_cat"
         android:textColor="@color/white"

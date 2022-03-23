@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/buttonshape.xml" value="0.334" />
+        <entry key="app/src/main/res/font/annie_use_your_telescope.xml" value="0.38958333333333334" />
         <entry key="app/src/main/res/layout-land/fragment_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_main.xml" value="0.33" />

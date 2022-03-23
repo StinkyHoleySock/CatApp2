@@ -7,3 +7,4 @@ data class Cat (
         val width: Int,
         val height: Int
 )
+

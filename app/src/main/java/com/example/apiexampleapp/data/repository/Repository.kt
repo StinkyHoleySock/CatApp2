@@ -10,3 +10,4 @@ class Repository {
         return RetrofitInstance.api.getCat()
     }
 }
+
