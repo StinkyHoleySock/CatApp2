@@ -7,3 +7,4 @@ App to get picture of the cat, using CatApi: https://thecatapi.com/
 - Navigation component
 - Picasso
 - ViewModel
+- Huawei ads
