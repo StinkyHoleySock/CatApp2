@@ -2,7 +2,15 @@
     <string name="app_name">ApiExampleApp</string>
     <string name="fragment_splash_text">Cat App</string>
     <string name="fragment_main_text">Main</string>
-    <string name="get_cat">Get cat</string>
+    <string name="get_cat">Get a cat</string>
     <string name="its_me">Это я, когда...</string>
     <string name="no_internet_connection">Нет соединения с интернетом</string>
+
+    <string name="cat_api"><b>The Cat API:</b></string>
+    <string name="cat_api_link">thecatapi.com</string>
+    <string name="developer"><b>Разработчик:</b></string>
+    <string name="developer_link">https://t.me/ForFutureF</string>
+    <string name="donate"><b>При желании задонатить:</b></string>
+    <string name="donate_card_number">5463 2304 1322 6609</string>
+    <string name="cat_memes_app">Cat memes app</string>
 </resources>
